@@ -12,8 +12,8 @@ func TestTerraformEc2rolemodule(t *testing.T) {
 		TerraformDir: "../iamrole",
 		Vars: map[string]interface{}{
 			"region":     "us-east-1",
-			"access_key": "AKIASRC4BHTKD6EAU32Y",
-			"secret_key": "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",
+			"access_key": "xxxxx",
+			"secret_key": "xxxxxxxx",
 		},
 	})
 
